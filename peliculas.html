@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Clapperboard el mejor sitio para enterearte de las nuevas series, peliculas y donde la podes ver. Nos podes dejar comentarios para seguir creciendo. Pero no te olvides, todo el chismecito del mundo de straming esta acá.">
+    <meta name="keywords"  content="CLAPPERBOARD, SERIES, PELICULAS">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/imagenes/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imagenes/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imagenes/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/imagenes/favicon/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <link href="css/estilos.css" rel="stylesheet">
+
+    <title>Clapperboard | Películas</title>
+
+</head>
+
+<body>
+    <!--NavBar-->
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <div class="logo">
+                    <img src="imagenes/icono.jpg" width="50" alt="icono de clapperboard" title="icono de clapperboard">
+                    <a class="text" href="index.html">Clapperboard</a>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Clapperboard</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="series.html">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="peliculas.html">Películas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Usuario
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="iniciar_sesion.html">Iniciar Sesión</a></li>
+                        <li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!-- encabezado de la pag -->
+    <div>
+        <img src="imagenes/peliculas/banner1.png" alt="banner de peliculas" srcset=""  class="tamañoImg" title="portada de peliculas">
+    </div>
+    
+<!--Peliculas-->
+    <!-- Form de buscar -->
+    <!-- <form action="">
+
+    </form> -->
+
+<!-- Acá van distintas cards con foto e info de las peliculas -->
+    <section class="container-fluid mt-3">
+
+     <!-- Cards responsive-->
+        <div class="row ">  
+            <div class=" mb-4 col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="imagenes/peliculas/batman.jpg" class="card-img-top img-fluid" alt="imagen de batman">
+                    <div class="card-body">
+                        <h5 class="card-title">Batman</h5> <hr>
+                        <p class="card-text">Después de dos años acechando por las calles de la ciudad como Batman (Robert Pattinson), e infundiendo miedo en las mentes perversas de los criminales, Bruce Wayne está sumido en las profundidades de las sombras de Gotham City. Este vigilante solitario cuenta con pocos aliados de confianza y eso le ha llevado a convertirse en la única encarnación de la venganza entre sus conciudadanos. Cuando un asesino apunta a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas lleva a Batman a realizar una investigación en el inframundo.</p>
+                        <a href="https://play.hbomax.com/page/urn:hbo:page:GYiDbSAmIpMNvYAEAAAAI:type:feature" class="btn btn-outline-success"> Ver en...</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" mb-4 col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="imagenes/peliculas/Animales-fantasticos.jpg" class="card-img-top img-fluid" alt="Imagen de animales fantasticos los secretos de Dumblendore">
+                    <div class="card-body">
+                        <h5 class="card-title">Animales fantásticos: Los secretos de Dumbledore</h5> <hr>
+                        <p class="card-text">El profesor Albus Dumbledore (Jude Law) sabe que el poderoso mago oscuro Gellert Grindelwald (Mads Mikkelsen) está haciendo planes para apoderarse del mundo mágico. Incapaz de detenerlo él solo, confía en el Magizoólogo Newt Scamander (Eddie Redmayne) para dirigir un intrépido equipo de magos, brujas y un valiente panadero Muggle en una misión peligrosa, donde se encuentran con antiguos y nuevos animales y se enfrentan a una legión cada vez más numerosa de seguidores de Grindelwald. Hay mucho en juego así que nos preguntamos hasta cuándo podrá permanecer Dumbledore al margen.</p>
+                            <a href="https://play.hbomax.com/page/urn:hbo:page:GYij31wBohZA3MQEAAAKa:type:feature" class="btn btn-outline-success"> Ver en...</a> 
+                    </div>
+                </div>
+            </div>
+            <div class=" mb-4 col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="/imagenes/peliculas/dr_strange.jpg" class="card-img-top img-fluid" alt="imagen de doctor strange">
+                    <div class="card-body">
+                        <h5 class="card-title">Doctor Strange en el multiverso de la locura</h5>
+                        <hr>
+                        <p class="card-text">Viaja a lo desconocido con el Doctor Strange, quien, con la ayuda de tanto antiguos como nuevos aliados místicos, recorre las complejas y peligrosas realidades alternativas del multiverso para enfrentarse a un nuevo y misterioso adversario.</p>
+                        <a href="https://www.disneyplus.com/es-419/movies/doctor-strange-en-el-multiverso-de-la-locura/27EiqSW4jIyH?irclickid=2L12qMwNbxyNRkOUNlSBQ2AnUkDQ7JzrUz1:QM0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-705874&tgclid=0c01003f-dcc2-44cf-8600-12706348dc39&dclid=CILTt5To3voCFaCylQId8Z0J6Q" class="btn btn-outline-success"> Ver en...</a>
+                        </div>
+                </div>
+            </div>
+            <div class=" mb-4 col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="/imagenes/peliculas/Thor.jpg" class="card-img-top img-fluid" alt="imagen de thor">
+                        <div class="card-body">
+                            <h5 class="card-title">Thor: Amor y trueno</h5>
+                            <hr>
+                            <p class="card-text">El Dios del Trueno (Chris Hemsworth) emprende un viaje que no se parece en nada a lo que se ha enfrentado hasta ahora: una búsqueda de la paz interior. Pero el retiro de Thor se ve interrumpido por un asesino galáctico conocido como Gorr el Carnicero de Dioses (Christian Bale), que busca la extinción de los dioses. Para hacer frente a la amenaza, Thor solicita la ayuda del Rey Valkiria (Tessa Thompson), de Korg (Taika Waititi) y de su ex novia Jane Foster (Natalie Portman) que, para sorpresa de Thor, empuña inexplicablemente su martillo mágico, Mjolnir, como la Poderosa Thor. Juntos, se embarcan en una aventura cósmica en la que tendrán que descubrir el misterio de la venganza del Carnicero de Dioses y detenerlo antes de que sea demasiado tarde.</p>
+                                <a href="https://www.disneyplus.com/es-419/movies/thor-amor-y-trueno/3htR8mRAZMoT?irclickid=2L12qMwNbxyNRkOUNlSBQ2AnUkDQ7NwiUz1:QM0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-705874&tgclid=0d01000d-88f2-424d-aa00-11e16348e045&dclid=CPmq34Hs3voCFfenlQIdZk8GCg" class="btn btn-outline-success"> Ver en...</a>
+                        </div>
+                </div>
+            </div>
+            <div class=" mb-4 col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="/imagenes/peliculas/avatar_the_way_of_water.jpg" class="card-img-top img-fluid" alt="imagen de Avatar">
+                        <div class="card-body">
+                            <h5 class="card-title">Avatar: El camino del agua</h5>
+                            <hr>
+                            <p class="card-text">Ambientada más de una década después de los acontecimientos de la primera película, 'Avatar: The Way of Water' empieza contando la historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que los persiguen, lo que tienen que hacer para mantenerse a salvo, las batallas que libran para seguir con vida y las tragedias que sufren. Secuela del éxito de taquilla Avatar</p>
+                                <a href="https://www.youtube.com/watch?v=5J57Hp_f-18" class="btn btn-outline-success"> Ver en...</a>
+                        </div>
+                </div>
+            </div>
+            <div class=" mb-4 col-md-6 col-xl-3">
+                <div class="card">
+                    <img src="/imagenes/peliculas/top_gun_maverick.jpg" class="card-img-top img-fluid" alt="imagen de top gun maverick">
+                        <div class="card-body">
+                            <h5 class="card-title">Top Gun: Maverick</h5>
+                            <hr>
+                            <p class="card-text">Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, Pete "Mavericks" Mitchel (Tom Cruise) se encuentra donde siempre quiso estar: superando los límites como un valiente piloto de pruebas y esquivando el ascenso de rango, que no le dejaría volar emplazándolo en tierra. Cuando es destinado a la academia de Top Gun con el objetivo de entrenar a los pilotos de élite para realizar una peligrosa misión en territorio enemigo, Maverick se encuentra allí con el joven teniente Bradley Bradshaw (Miles Teller), el hijo de su difunto amigo "Goose".</p>
+                            <a href="https://www.disneyplus.com/es-419/movies/thor-amor-y-trueno/3htR8mRAZMoT?irclickid=2L12qMwNbxyNRkOUNlSBQ2AnUkDQ7NwiUz1:QM0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-705874&tgclid=0d01000d-88f2-424d-aa00-11e16348e045&dclid=CPmq34Hs3voCFfenlQIdZk8GCg" class="btn btn-outline-success"> Ver en...</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Comentarios -->
+    <section class="py-5 border-bottom">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <h3 class="fw-bolder">Comentarios</h3>
+                <h4>Deja tu Comentario y lo que quieras que agreguemos o mejoremos de la pagina!! </h4>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">                        
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, consequuntur. </p>
+                                        <div class="small text-muted"> - Jimena  </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary bg-opacity-10 py-5">
+        <div class="container px-5">
+            <div class="row gx-6 justify-content-center">
+                <div class="col-lg-6">
+                    <h3>Comentarios</h3>
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label formColor">Nombre:</label>
+                            <input type="nombre" class="form-control " id="exampleFormControlInput1" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label formColor">Mensaje:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="">
+                            <input type="submit" class="btn btn-outline-success" value="Enviar"> 
+                            <input type="reset" class="btn btn-outline-danger" value="Borrar">
+                        </div>                   
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!--Footer-->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+        <div class="col-md-4 d-flex align-items-center logo">
+            <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img src="imagenes/icono.jpg" width="50" alt="icono de clapperboard" title="icono de clapperboard">
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">Todos los derechos reservados.</span>
+        </div>
+        
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i> </a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i> </a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp"></i> </a></li>
+        </ul>
+    </footer>
+    
+<!-- links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

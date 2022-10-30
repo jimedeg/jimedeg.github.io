@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Clapperboard el mejor sitio para enterearte de las nuevas series, peliculas y donde la podes ver. Nos podes dejar comentarios para seguir creciendo. Pero no te olvides, todo el chismecito del mundo de straming esta acá.">
+    <meta name="keywords"  content="CLAPPERBOARD, SERIES, PELICULAS">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/imagenes/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imagenes/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imagenes/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/imagenes/favicon/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>Claperboard | Contacto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   
+    <link href="css/estilos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--NavBar-->
+<header>
+    <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <div class="logo">
+                <img src="imagenes/icono.jpg" width="50" alt="icono de clapperboard" title="icono de clapperboard">
+                <a class="text" href="index.html">Clapperboard</a>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Clapperboard</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="series.html">Series</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="peliculas.html">Películas</a>
+                </li>
+                <li class="nav-item">
+                  <a  class="nav-link" href="about.html">Nosotros</a>
+              </li>
+                <li class="nav-item">
+                    <a  class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Usuario
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="iniciar_sesion.html">Iniciar Sesión</a></li>
+                    <li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+</header>
+<!-- encabezado de la pag -->
+    <div id="banner">
+        <h1>Formulario de contacto </h1>
+    </div>
+    
+<!--Formulario de contacto-->
+<section class="container mt-4 mb-3">
+    
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label formColor">Nombre:</label>
+        <input type="nombre" class="form-control " id="exampleFormControlInput1" placeholder="Nombre">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label formColor">Apellido:</label>
+        <input type="apellido" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label formColor">Email:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label formColor" for="flexCheckDefault">
+            ¿Quéres que te mandemos más info?
+        </label>
+      </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label formColor">Mensaje:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="">
+        <input type="submit" class="btn btn-outline-success" value="Enviar"> 
+        <input type="reset" class="btn btn-outline-danger" value="Borrar">
+    </div>
+</section>
+
+
+
+<!--Footer-->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+        <div class="col-md-4 d-flex align-items-center logo">
+          <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img src="imagenes/icono.jpg" width="50" class="icono de clapperboard" title="icono de clapperboard">
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">Todos los derechos reservados.</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i> </a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i> </a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp"></i> </a></li>
+        </ul>
+    </footer>
+
+<!-- links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

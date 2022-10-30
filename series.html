@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Clapperboard el mejor sitio para enterearte de las nuevas series, peliculas y donde la podes ver. Nos podes dejar comentarios para seguir creciendo. Pero no te olvides, todo el chismecito del mundo de straming esta acá.">
+    <meta name="keywords"  content="CLAPPERBOARD, SERIES, PELICULAS">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/imagenes/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imagenes/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imagenes/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/imagenes/favicon/site.webmanifest">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">    
+    
+    <title>Clapperboard | Series</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <link href="css/estilos.css" rel="stylesheet">
+    
+</head>
+
+<body>
+       <!--NavBar-->
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <div class="logo">
+                    <img src="imagenes/icono.jpg" width="50" alt="icono de clapperboard" title="icono de clapperboard">
+                    <a class="text" href="index.html">Clapperboard</a>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Clapperboard</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="series.html">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="peliculas.html">Películas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Usuario
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="iniciar_sesion.html">Iniciar Sesión</a></li>
+                        <li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+
+<!--Series-->
+    <!-- encabezado de la pag -->
+    <div>
+        <img src="imagenes/series/banner1.png" alt="banner de peliculas" srcset=""  class="tamañoImg">
+    </div>
+
+    <!-- Form de buscar -->
+    <!-- <form action="">
+
+    </form> -->
+
+   <!-- Acá van distintas cards con foto e info de las peliculas -->
+   <section class="container-fluid mt-3">
+
+    <!-- Cards responsive-->
+       <div class="row ">  
+           <div class=" mb-4 col-md-6 col-xl-3">
+               <div class="card">
+                   <img src="imagenes/series/house_of_the_dragon.jpg" class="card-img-top img-fluid" alt="imagen de house of the dragon">
+                   <div class="card-body">
+                       <h5 class="card-title">House of the Dragon</h5> <hr>
+                       <p class="card-text">Historia ambientada 172 años "antes de Daenerys Targaryen", y en el noveno año del reinado de Viserys Targaryen (Paddy Considine), un rey cuya línea de sucesión está en peligro. Su esposa Aemma (Sian Brooke) está embarazada, aunque no hay garantía de que dé a luz a un heredero varón. Si no lo hace, entonces el Trono de Hierro recaerá, bien sobre el hermano de Viserys, Daemon, un gobernante impulsivo y potencialmente tiránico (Matt Smith); o bien, rompiendo con la tradición de preferencia del varón, en la hija adolescente de Viserys, Rhaenyra (Milly Alcock), cuyo reclamo del trono está destinado a tener una fuerte oposición.</p>
+                       <a href="https://play.hbomax.com/page/urn:hbo:page:GYsYeoAxKH8LCwgEAAAOR:type:series" class="btn btn-outline-success"> Ver en...</a>
+                   </div>
+               </div>
+           </div>
+           <div class=" mb-4 col-md-6 col-xl-3">
+               <div class="card">
+                   <img src="/imagenes/series/lord_of_the_rings_the_rings_of_power.jpg" class="card-img-top img-fluid" alt="imagen de El señor de los anillos: Los anillos de poder">
+                   <div class="card-body">
+                       <h5 class="card-title">El señor de los anillos: Los anillos de poder</h5>
+                       <hr>
+                       <p class="card-text"> En un periodo de relativa calma, los personajes se enfrentan al resurgimiento del mal en la Tierra Media. Desde las profundidades más oscuras de las Montañas Nubladas hasta los majestuosos bosques de Lindon, el impresionante reino insular de Númenor y los confines más lejanos del mapa, estos reinos y personajes esculpirán legados que perdurarán en el tiempo. Serie de TV basada en los libros de J.R.R. Tolkien, ambientada en la Tierra Media, y que explora nuevas líneas argumentales en una época muy anterior a "La comunidad del anillo".</p>
+                       <a href="https://www.primevideo.com/detail/0TAPPIZDTWUZORUA92KX2Q54V2/ref=atv_dl_rdr" class="btn btn-outline-success"> Ver en...</a>
+                       </div>
+               </div>
+           </div>
+           <div class=" mb-4 col-md-6 col-xl-3">
+               <div class="card">
+                   <img src="imagenes/series/pretty_little_liars_original_sin.jpg" class="card-img-top img-fluid" alt="Imagen de Pretty Little Liars: Un nuevo pecado">
+                   <div class="card-body">
+                       <h5 class="card-title">Pretty Little Liars: Un nuevo pecado</h5> <hr>
+                       <p class="card-text">En este atrapante drama sobre el paso a la adultez ambientado en el universo de Lindas mentirosas, un nuevo grupo de adolescentes dispares se encuentra atormentado por una misteriosa persona que se hace llamar 'A'</p>
+                           <a href="https://play.hbomax.com/page/urn:hbo:page:GYqM-cQPaAKeUiwEAAAAC:type:series" class="btn btn-outline-success"> Ver en...</a> 
+                   </div>
+               </div>
+           </div>
+           <div class=" mb-4 col-md-6 col-xl-3">
+               <div class="card">
+                   <img src="/imagenes/series/the-boys.jpg" class="card-img-top img-fluid" alt="imagen de The Boys">
+                       <div class="card-body">
+                           <h5 class="card-title">The Boys</h5>
+                           <hr>
+                           <p class="card-text">La serie tiene lugar en un mundo en el que los superhéroes representan el lado oscuro de la celebridad y la fama. Un grupo de vigilantes que se hacen llamar "The Boys" decide hacer todo lo posible por frenar a los superhéroes que están perjudicando a la sociedad, independientemente de los riesgos que ello conlleva.</p>
+                               <a href="https://www.primevideo.com/detail/0OBCCGYKAAAAYD4D0J29QKHBWD/ref=atv_dl_rdr" class="btn btn-outline-success"> Ver en...</a>
+                       </div>
+               </div>
+           </div>
+           <div class=" mb-4 col-md-6 col-xl-3">
+               <div class="card">
+                   <img src="/imagenes/series/StrangerT.jpg" class="card-img-top img-fluid" alt="imagen de Stranger Things">
+                       <div class="card-body">
+                           <h5 class="card-title">Stranger Things</h5>
+                           <hr>
+                           <p class="card-text">Homenaje a los clásicos misterios sobrenaturales de los años 80, "Stranger Things" es la historia de un niño que desaparece en el pequeño pueblo de Hawkins, Indiana, sin dejar rastro en 1983. En su búsqueda desesperada, tanto sus amigos y familiares como el sheriff local se ven envueltos en un enigma extraordinario: experimentos ultrasecretos, fuerzas paranormales terroríficas y una niña muy, muy rara...</p>
+                               <a href="https://www.netflix.com/ar/title/80057281" class="btn btn-outline-success"> Ver en...</a>
+                       </div>
+               </div>
+           </div>
+           <div class=" mb-4 col-md-6 col-xl-3">
+               <div class="card">
+                   <img src="/imagenes/series/The_Office_.jpg" class="card-img-top img-fluid" alt="imagen de The office">
+                       <div class="card-body">
+                           <h5 class="card-title">The office</h5>
+                           <hr>
+                           <p class="card-text">La adaptación de Estados Unidos, localizada en Scranton, Pensilvania., es la de una compañía papelera de alguna forma un poco más dinámica que la versión original Británica, aunque los personajes son esencialmente los mismos, desde Michael Scott, el peor jefe de todos hasta un hombre cualquiera Jim, enamorado de la recepcionista Pam a quien él le coquetea cuando no está preocupado por atormentar a su compañero Dwight, un hombre muy excitable y adulón.</p>
+                           <a href="https://play.hbomax.com/page/urn:hbo:page:GYRsKbA3gmIjDwgEAAAMH:type:series" class="btn btn-outline-success"> Ver en...</a>
+                       </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+<!-- Comentarios -->
+    <section class="py-5 border-bottom">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder">Comentarios</h2>
+                <h4>Deja tu Comentario y lo que quieras que agreguemos o mejoremos de la pagina!! </h4>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">                        
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, consequuntur. </p>
+                                        <div class="small text-muted"> - Jimena  </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary bg-opacity-10 py-5">
+        <div class="container px-5">
+            <div class="row gx-6 justify-content-center">
+                <div class="col-lg-6">
+                    <h3>Comentarios</h3>
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label formColor">Nombre:</label>
+                            <input type="nombre" class="form-control " id="exampleFormControlInput1" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label formColor">Mensaje:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="">
+                            <input type="submit" class="btn btn-outline-success" value="Enviar"> 
+                            <input type="reset" class="btn btn-outline-danger" value="Borrar">
+                        </div>                   
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Footer-->
+       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+            <div class="col-md-4 d-flex align-items-center logo">
+            <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img src="imagenes/icono.jpg" width="50" title="icono de clapperboard" alt="icono de clapperboardz">
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">Todos los derechos reservados.</span>
+            </div>
+    
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i> </a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i> </a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp"></i> </a></li>
+            </ul>
+        </footer>
+
+    <!-- links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
